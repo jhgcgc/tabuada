@@ -1,0 +1,40 @@
+div#div1{
+margin: auto;
+text-align: center;
+background: aqua;
+width: 25%;
+border-radius: 5px;
+padding: 5px;
+}
+.largura{
+width: 40px;
+border-radius: 5px;
+
+}
+h1{
+    text-align: center;
+}
+p#links{
+    text-align: center;
+    
+    
+}
+input#VerResultados{
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+}
+body{
+    border-radius: 5px;
+    border: 5px solid;
+    border-color: rgb(83, 83, 216);
+    background-color: rgb(221, 252, 168);
+
+    padding:20px;
+    border-radius:10px;
+    min-width: 250px;
+    max-width: 1030px;
+    margin: auto;
+   height: 100%;
+}
+
