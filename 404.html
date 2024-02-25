@@ -11,8 +11,7 @@
     
 
 <body>
-        
-    <p id="links">
+     <p id="links">
         <a href="tabela1.html"class="area" style.background=lime>Tabela 1</a>
         <a href="tabela2.html" class="area"> Tabela 2 </a>
         <a href="tabela3.html" class="area"> Tabela 3 </a>
@@ -24,18 +23,33 @@
         </p>
        <audio id="player"></audio>
         <div id="div1">
-       <p>2 x 0 = <input type="number"class="largura"id="input0"maxlength="3"></p>
-       <p>2 x 1 = <input type="number"class="largura"id="input1"maxlength="3" > </p> 
-       <p>2 x 2 = <input type="number"class="largura"id="input2"maxlength="3"></p> 
-       <p>2 x 3 = <input type="number"class="largura"id="input3"maxlength="3"> </p>
-       <p>2 x 4 = <input type="number"class="largura"id="input4"maxlength="3"></p>
-       <p>2 x 5 = <input type="number"class="largura"id="input5"maxlength="3"></p>
-       <p>2 x 6 = <input type="number"class="largura"id="input6"maxlength="3"></p>
-       <p>2 x 7 = <input type="number"class="largura"id="input7"maxlength="3"></p>
-       <p>2 x 8 = <input type="number"class="largura"id="input8"maxlength="3"></p>
-       <p>2 x 9 = <input type="number"class="largura"id="input9"maxlength="3"></p>
+      
+       <label for="">Saldo:</label><label for=""id="pontos"> 0 </label><label for="">R$</label>
+       <div>
+        2 x 0 = <input type="number"class="largura"id="input0"maxlength="3"  >
+           2 x 1 = <input type="number"class="largura"id="input1"maxlength="3">
+            </div> 
+       <div>
+        2 x 2 = <input type="number"class="largura"id="input2"maxlength="3">
+        2 x 3 = <input type="number"class="largura"id="input3"maxlength="3"> 
+       </div>
+       
+       <div>
+        2 x 4 = <input type="number"class="largura"id="input4"maxlength="3">
+        2 x 5 = <input type="number"class="largura"id="input5"maxlength="3">
+       </div>
+       
+       <div>
+        2 x 6 = <input type="number"class="largura"id="input6"maxlength="3">
+        2 x 7 = <input type="number"class="largura"id="input7"maxlength="3">
+       </div>
+       <div>2 x 8 = <input type="number"class="largura"id="input8"maxlength="3">
+            2 x 9 = <input type="number"class="largura"id="input9"maxlength="3">
+    </div>
        <p>2 x 10 = <input type="number"class="largura"id="input10"maxlength="3"></p>
        <input type="button" id="VerResultados"style=background:SlateGray name="veracertos"value="veracertos"onclick="veracertos()">
+       
+       <button type="reset"id="resetar"onclick="resetar()">resetar</button>
  </div> 
  
 </main>
@@ -48,6 +62,7 @@
       
 
    <script src=",tabela2.js"></script>
+       
    
 
     
